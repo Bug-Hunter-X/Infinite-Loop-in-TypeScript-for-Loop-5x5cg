@@ -1,0 +1,2 @@
+# Infinite Loop in TypeScript
+This repository demonstrates a simple yet common error in TypeScript: an infinite loop caused by an incorrect loop condition.  The `printNumbers` function is intended to print numbers from 1 to n. However, if a negative number is provided, the loop condition `i <= n` will never be false, resulting in an infinite loop.  The solution provides a corrected version that handles negative input gracefully.
